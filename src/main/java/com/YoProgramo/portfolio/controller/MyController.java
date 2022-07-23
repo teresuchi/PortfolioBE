@@ -373,5 +373,10 @@ public class MyController {
        return miPortfolioDTO;
     }
 
-      
+    @GetMapping ("/prueba")
+    @ResponseBody
+    public String pruebaServicio(){
+        return "Respuesta de servicio exitosa.";
+    }
+    
 }
