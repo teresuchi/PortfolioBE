@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "http://portfoliofe-9bccb.web.app/")
+@CrossOrigin(origins = "https://portfoliofe-9bccb.web.app/")
 @RestController
 public class MyController {
     
