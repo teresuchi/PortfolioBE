@@ -320,28 +320,6 @@ public class MyController {
        }
        
        
-       /**** PENDIENTE: Habilidades para la lista Backend ****/ 
-       /**
-       HabilidadDTO habilidad_4DTO = new HabilidadDTO();
-       habilidad_4DTO.setTitulo("JAVA");
-       habilidad_4DTO.setPorcentaje("70%");
-       
-       HabilidadDTO habilidad_5DTO = new HabilidadDTO();
-       habilidad_5DTO.setTitulo("MYSQL");
-       habilidad_5DTO.setPorcentaje("60%");
-       
-       HabilidadDTO habilidad_6DTO = new HabilidadDTO();
-       habilidad_6DTO.setTitulo("SPRINGBOOT");
-       habilidad_6DTO.setPorcentaje("60%");
-       
-       @SuppressWarnings("Convert2Diamond")
-       ArrayList<HabilidadDTO> listaDeBackend = new ArrayList<HabilidadDTO>();
-       listaDeBackend.add(habilidad_4DTO);
-       listaDeBackend.add(habilidad_5DTO);
-       listaDeBackend.add(habilidad_6DTO);
-       
-       **/
-       
        /**** DTOs para educación  ****/ 
        
        ArrayList<EstudioDTO> listaDeEducacion = new ArrayList<EstudioDTO>();     
